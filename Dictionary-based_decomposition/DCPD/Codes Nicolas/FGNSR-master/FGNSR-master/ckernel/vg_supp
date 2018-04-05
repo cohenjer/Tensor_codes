@@ -1,0 +1,72 @@
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:calloc
+   fun:allocate_dtv
+   fun:_dl_allocate_tls
+   fun:pthread_create@@GLIBC_2.2.5
+   obj:/usr/lib64/libgomp.so.1.0.0
+   fun:FGNSRproj_project_dmatrix
+   fun:TestOneByOne1
+   fun:CuTestRun
+   fun:CuSuiteRun
+   fun:RunAllTests
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   fun:realloc
+   obj:/usr/lib64/libgomp.so.1.0.0
+   obj:/usr/lib64/libgomp.so.1.0.0
+   fun:FGNSRproj_project_dmatrix
+   fun:TestOneByOne1
+   fun:CuTestRun
+   fun:CuSuiteRun
+   fun:RunAllTests
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   obj:/usr/lib64/libgomp.so.1.0.0
+   obj:/usr/lib64/libgomp.so.1.0.0
+   fun:omp_set_dynamic
+   fun:setup_openmp
+   fun:FGNSRproj_init
+   fun:TestInitFree
+   fun:CuTestRun
+   fun:CuSuiteRun
+   fun:RunAllTests
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   obj:/usr/lib64/libgomp.so.1.0.0
+   obj:/usr/lib64/libgomp.so.1.0.0
+   fun:FGNSRproj_project_dmatrix
+   fun:TestOneByOne1
+   fun:CuTestRun
+   fun:CuSuiteRun
+   fun:RunAllTests
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   fun:malloc
+   obj:/usr/lib64/libgomp.so.1.0.0
+   obj:/usr/lib64/libgomp.so.1.0.0
+   fun:GOMP_parallel_start
+   fun:FGNSRproj_project_dmatrix
+   fun:TestOOMConditions
+   fun:CuTestRun
+   fun:CuSuiteRun
+   fun:RunAllTests
+   fun:main
+}
+

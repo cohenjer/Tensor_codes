@@ -1,0 +1,7 @@
+LD = clang
+CC = clang
+CFLAGS = -dynamic -O3 -Wall -Wno-unknown-pragmas -pedantic -I. -fPIC \
+-DFGNSRDEBUG
+LDFLAGS = -dynamiclib
+SHAREDLIBEXT = dylib
+MEXEXT = mexmaci64

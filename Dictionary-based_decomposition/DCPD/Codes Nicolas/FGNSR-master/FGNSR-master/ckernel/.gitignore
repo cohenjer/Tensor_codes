@@ -1,0 +1,9 @@
+libfastgrad.*.a
+libfastgrad.*.dylib
+libfastgrad.*.so
+runtests.*.bin
+runtests.*.bin
+parproj_priv.o
+proj.o
+*.mexmaci64
+*.mexa64

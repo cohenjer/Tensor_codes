@@ -1,0 +1,7 @@
+LD = gcc
+CC = gcc
+CFLAGS = -fopenmp -O3 -Wall -pedantic -I. -fPIC -DNDEBUG -fomit-frame-pointer
+LDFLAGS = -shared -fopenmp
+LDLIBS = -lrt
+SHAREDLIBEXT = so
+MEXEXT = mexa64

@@ -1,0 +1,8 @@
+LD = gcc
+CC = gcc
+CFLAGS = -g -O0 -Wall -pedantic -I. -fPIC -Wno-unknown-pragmas -DFGNSRDEBUG \
+-fprofile-arcs -ftest-coverage
+LDFLAGS = -shared
+LDLIBS = -lrt
+SHAREDLIBEXT = so
+MEXEXT = mexa64

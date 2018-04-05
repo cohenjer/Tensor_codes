@@ -1,0 +1,7 @@
+LD = gcc-mp-4.7
+CC = gcc-mp-4.7
+CFLAGS = -fprofile-arcs -ftest-coverage -dynamic -g -O0 -Wall \
+-Wno-unknown-pragmas -pedantic -I. -fPIC -DFGNSRDEBUG
+LDFLAGS = -dynamiclib -fprofile-arcs -ftest-coverage
+SHAREDLIBEXT = dylib
+MEXEXT = mexmaci64

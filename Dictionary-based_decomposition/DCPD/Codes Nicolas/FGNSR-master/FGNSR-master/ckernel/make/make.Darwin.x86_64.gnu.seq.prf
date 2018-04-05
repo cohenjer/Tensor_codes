@@ -1,0 +1,7 @@
+LD = gcc-mp-4.7
+CC = gcc-mp-4.7
+CFLAGS = -dynamic -pg -O0 -Wall -Wno-unknown-pragmas -pedantic -I. -fPIC \
+-DNDEBUG
+LDFLAGS = -dynamiclib -pg
+SHAREDLIBEXT = dylib
+MEXEXT = mexmaci64

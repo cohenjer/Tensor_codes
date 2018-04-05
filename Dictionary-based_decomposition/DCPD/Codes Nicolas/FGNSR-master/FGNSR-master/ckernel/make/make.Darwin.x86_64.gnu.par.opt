@@ -1,0 +1,7 @@
+LD = gcc-mp-4.7
+CC = gcc-mp-4.7
+CFLAGS = -fopenmp -dynamic -O3 -Wall -pedantic -I. -fPIC -fomit-frame-pointer \
+-DNDEBUG
+LDFLAGS = -fopenmp -dynamiclib
+SHAREDLIBEXT = dylib
+MEXEXT = mexmaci64

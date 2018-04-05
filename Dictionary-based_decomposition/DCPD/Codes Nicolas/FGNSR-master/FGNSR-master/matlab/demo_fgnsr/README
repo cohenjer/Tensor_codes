@@ -1,0 +1,9 @@
+This Matlab demo compares various algorithms for separable NMF perform on an
+hyperspectral image data set.  To run the demo, you need to have set up your
+Matlab installation so that the 'mex' command is working (typically a compiler
+needs to be installed).
+
+To run the demo, simply execute the demo_fgnsr.m script from within Matlab.
+
+See also: N. Gillis & R. Luce, "A Fast Gradient Method for Nonnegative Sparse
+Regression with Self Dictionary"

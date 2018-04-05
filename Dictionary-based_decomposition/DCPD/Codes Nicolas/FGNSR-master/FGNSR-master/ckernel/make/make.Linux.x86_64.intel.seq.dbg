@@ -1,0 +1,8 @@
+LD = gcc
+CC = icc
+CFLAGS = -g -O0 -debug -ftrapuv -Wall -ansi -I. -fPIC -Wno-unknown-pragmas \
+-DFGNSRDEBUG
+LDFLAGS = -shared
+LDLIBS = -lrt
+SHAREDLIBEXT = so
+MEXEXT = mexa64
