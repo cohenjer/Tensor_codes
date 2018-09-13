@@ -20,7 +20,9 @@ Last Update : 05/04/2018
   a) CCP : Flexibly coupled tensor decompositions. 
   
   b) NNP2 : Flexibly coupled PARAFAC2 with nonnegativity constraints in the coupled mode. 
-  
+
+  c) Registered-CP : comming soon
+
 3/ Constrained Compression and acceleration for constrained tensor data
 -----------------------------------------------------------------------
 
