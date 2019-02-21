@@ -1,7 +1,7 @@
 # Tensor_codes
 MATLAB codes for computing various tensor decomposition. Most of the shared code is rather unoptimized, to be used to check viability of the proposed new tensor decompositions models. Most algorithms are also based on variants of Alternating Least Squares.
 
-Last Update : 05/04/2018
+Last Update : 21/02/2019
 
 -------- Contents ---------
 ---------------------------
@@ -32,3 +32,8 @@ Last Update : 05/04/2018
 ---------------------------------
 
   a) NLFD : Nonlinear fluorescence decomposition, designed for fluorescence samples with high concentrations, where the linearity of the CPD model does not hold. Based on the Levenberg Marquardt algorithm.
+
+5/ Sparse Component analysis
+----------------------------
+
+  a) ICASSP2019: codes for testing Nonnegative Sparse Matrix Factorization, with a MATLAB implementation of a brute force algorithm and a variant of k-subspace.
