@@ -14,7 +14,7 @@ Last Update : 21/02/2019
   
   b) MPALS : factor A in the CPD of a tensor T is so that A = D(:,K), K a set of idexes. Features greedy and flexible algorithms.
 
-  c) ProxOp : Proximal operators of $\ell_1$ and $\ell_{\infty}$ induced matrix norm.
+  c) ProxOp : Proximal operators of l_1 and l_∞ induced matrix norm.
 
 2/ Coupled Decompositions
 -------------------------
